@@ -1,4 +1,3 @@
 public interface AbstractProductFactory {
-    public abstract Product createProduct();
-
+    Product createProduct(String productName);
 }

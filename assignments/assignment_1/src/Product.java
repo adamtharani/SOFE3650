@@ -1,4 +1,6 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public interface Product {
-    public void productPrice(double price);
-    public void productName(String name);
+    public double productPrice(String productName) throws IOException;
 }
