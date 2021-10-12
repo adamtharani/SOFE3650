@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 // Model!!
 public class CashRegister {
     private Product currentProduct;
@@ -6,6 +8,8 @@ public class CashRegister {
     private Display monitor = new Display();
     private TicketPrinter receipt = new TicketPrinter();
     private ProductDB productDatabase = new ProductDB();
+
+    ArrayList<Observer> ol = new ArrayList<Observer>();
 
     public Product getCurrentProductInfo(Product product) {
         return product;
@@ -23,9 +27,21 @@ public class CashRegister {
     }
 
     public void update() {
-        monitor.displayText(String.format("MONITOR --- Name: %s, Price: %s, UPCCode: %s", currentProduct.name, currentProduct.price, currentProduct.upc));
-        receipt.displayText(String.format("TICKET PRINTER --- Name: %s, Price: %s, UPCCode: %s", currentProduct.name, currentProduct.price, currentProduct.upc));
+        notifyObservers();
+    }
 
+    void notifyObservers() {
+        for(Observer o:ol)
+            o.update(currentProduct);
+    }
+
+    void registerObserver(Observer o) {
+        ol.add(o);
+    }
+
+    void registerObservers() {
+        ol.add(monitor);
+        ol.add(receipt);
     }
 
 
