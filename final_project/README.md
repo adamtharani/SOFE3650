@@ -8,4 +8,4 @@
 - Brenden Muldowney - 100707148
 
 ## Table of Contents
-- [Project Proposal](final_project/Group26_ProjectProposal.pdf)
+- [Project Proposal](Group26_ProjectProposal.pdf)
