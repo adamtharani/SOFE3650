@@ -1,4 +1,6 @@
-# Assignment 3
+# Final Project
+
+[GitHub Project](https://github.com/users/adamtharani/projects/1/)
 
 ## Group Members
 
