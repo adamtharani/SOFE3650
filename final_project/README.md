@@ -11,3 +11,4 @@
 
 ## Table of Contents
 - [Project Proposal](Group26_ProjectProposal.pdf)
+- [Project Progress Report](Project%20Progress%20Report.pdf)
