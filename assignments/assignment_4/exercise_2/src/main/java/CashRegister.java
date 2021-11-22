@@ -11,10 +11,11 @@ public class CashRegister {
     public ProductScanner productScanner() {
         return this.productScanner;
     }
+    
 
     public void setCurrentProductUPC(int UPCCode) {
         if (productScanner.scannedUPCCode(UPCCode) == 0) {
-//            monitor.displayText("You have scanned an invalid item, please manually enter the UPCCOde");
+            monitor.displayText("You have scanned an invalid item, please manually enter the UPCCode");
             currentProduct = productDatabase.getProductInfo(productScanner.scanProduct());
         }
         else {

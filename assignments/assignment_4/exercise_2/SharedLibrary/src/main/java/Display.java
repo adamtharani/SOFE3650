@@ -16,10 +16,6 @@ public class Display extends JFrame {
         });
     }
 
-    public void DisplayText(String message) {
-
-    }
-
     public Display() {
         super();
         init();
@@ -27,10 +23,15 @@ public class Display extends JFrame {
 
     private void init() {
         setLayout(new FlowLayout());
-//        add(new JLabel("Welcome to the Cash Register"));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(640, 480);
         setLocationRelativeTo(null);
     }
 
+    public void displayText(String s) {
+        Frame frame = new Frame();
+        frame.setSize(640, 480);
+
+        JOptionPane.showMessageDialog(frame, s);
+    }
 }
