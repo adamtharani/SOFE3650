@@ -5,8 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>exercise_2</artifactId>
+    <artifactId>CashRegister</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>SharedLibrary</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>SharedLibrary</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
