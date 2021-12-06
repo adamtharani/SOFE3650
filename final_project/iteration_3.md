@@ -40,4 +40,22 @@ Figure 3.1
 
 Figure 3.2
 
+| Element | Responsibility | 
+| - | - | 
+| Redundant Database Server | Act as a redundant replica of the database server. In the event of a failure during patch implementation or normal operation, the database server will immediately refresh to the state of the replica. |
+| Patch Manager | Allow for the streamlining of the implementation and management of patches. Drastically speeding up the update process as per QA-2. |
+| Kafka | Act as a message queuing service between the logic and data layers. Allow for producers to publish messages to Kafka topics so consumers can view these messages persistently. |
+
+
 ## 3.2.6 Step 7: Perform Analysis of Current Design and Review Iteration
+
+In this iteration, important design decisions have been made to address QA-2. These decisions also impacted QA-1 and QA-5. The following table summarizes the status of the different drivers and the decisions that were made during the iteration. Drivers that were completely addressed in the previous iteration have been removed from the table.
+
+| Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration | 
+| ------------- | ------------------- | -------------------- | ------------------------------------------ |
+| | QA-1 | | Implement the passive redundancy strategy so that the application can still function normally even in the event of one of the replicated elements failing. |
+| | QA-2 | | Implement a patch manager to drastically speed up the update process. |
+| | QA-5 | | Implement a patch manager to effectively manage the patch update process and allow for much easier management of implemented patches. |
+| CON-1 | | | No relevant decision made. |
+| CON-2 | | | No relevant decision made.
+| |  | CON-3 | Implement Kafka as a message queue component. |

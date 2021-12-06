@@ -65,3 +65,13 @@ Drivers that were completely addressed in the previous iteration are removed fro
 
 | Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration | 
 | ------------- | ------------------- | -------------------- | ------------------------------------------ |
+| | UC-1 | | Map the system use cases to domain objects | 
+| | UC-3 | | Map the system use cases to domain objects | 
+| | UC-6 | | Map the system use cases to domain objects | 
+| QA-1 | | | No relevant decisions were made | 
+| QA-2 | | | No relevant decisions were made | 
+| | QA-4 | | The elements that support the associated use case (All) have been identified. |
+| | QA-5 | | The elements that support the associated use case (UC-3) have been identified. |
+| CON-1 | | | No relevant decisions were made| 
+| | CON-2 | | Modules responsible for collecting data storage have been identified. | 
+| | CON-3 | | Modules responsible for collecting data storage have been identified. | 
