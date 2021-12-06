@@ -2,6 +2,19 @@
 
 ## 1.1 ADD Step 1: Review Inputs
 
+Primary Functional Requirements:
+- UC-1,2: Registering Students & Professors
+- UC-3: Managing Courses
+- UC-4: User administration and log in
+
+| Scenario ID | Importance to the Customer | Difficulty of Implementation | Associated Use Case |
+| - | - | - | - |
+| QA-1 | HIGH | MEDIUM | UC-1,2 |
+| QA-2 | HIGH | MEDIUM | UC-3 |
+| QA-3 | HIGH | MEDIUM | UC-4 |
+| QA-4 | MEDIUM | LOW | UC-1 |
+| QA-5 | MEDIUM | LOW | UC-1,2 |
+
 ## 1.2 Iteration 1: Establishing an Overall System Structure
 ## 1.2.1 Step 2: Establish Iteration Goal by Selecting Drivers
 
@@ -35,11 +48,15 @@ This is a university database development effort, so in this case the element to
 
 | Design Decisions and Location | Rationale |
 | -- | ---------- |
+| Store data on the network | There is no need to store the data locally as the users will need to access them at any time, so the best solution is to use the network. |
+| Host the the web application on a different server | This will help with security and will help with performance for the data server. |
 
 
 ## 1.2.5 Step 6: Sketch Views and Record Design Decisions
 
-![step6](images/iteration_1/step6.png)
+![Figure 1.1](images/iteration_1/step6.png)
+
+Figure 1.1
 
 ## 1.2.6 Step 7: Perform Analysis of Current Design and Review Iteration
 
