@@ -8,9 +8,10 @@ The goal of this iteration is to address the general architectural concern of id
 ing structures to support primary functionality. Identifying these elements is useful 
 not only for understanding how functionality is supported, but also for addressing 
 the allocation of work to members of the development team. In this second iteration, the  architect considers the system's primary use cases:
-UC-1: Register Students
-UC-3: Manage Courses
-UC-6: View Schedule
+
+- UC-1: Register Students
+- UC-3: Manage Courses
+- UC-6: View Schedule
 
 
 ## 2.2.2 Step 3: Choose One or More Elements of the System to Refine
