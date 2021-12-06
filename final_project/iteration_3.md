@@ -18,8 +18,8 @@ The Design concepts used in this iteration are as follows:
 | Design Decisions and Location | Rationale and Assumptions |
 | ----------------------------- | ------------------------- |
 | Implement a patch manager to effectively manage the patch update process. | Implementing a patch manager will allow for the automation of updates and much easier management of implemented patches. This will drastically speed up the update process. |
-| Introduce an element from the message queue technology family. | Patches received from the patch manager will be placed in a message queue before they are retrieved by the database. The use of a queue will keep server updates in order and processing at a steady pace. |
-
+| Introduce an element from the message queue technology family. |Patches received from the patch manager will be placed in a message queue before they are retrieved by the database. The use of a queue will keep server updates in order and processing at a steady pace. We have opted to use apache kafka as the framework for this element. |
+| Implement the passive redundancy strategy by replicating the application and core components (i.e. database) | By making redundant copies of all core application components the application can still function normally even in the event of one of the replicated elements failing. | 
 ## 3.2.4 Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
 The instantiation design decisions are summarized in the following table:
