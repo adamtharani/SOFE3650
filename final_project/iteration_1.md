@@ -70,12 +70,17 @@ This is a university database development effort, so in this case the element to
 
 Figure 1.1
 
+
+
 | Element | Responsibility |
 | - | - |
 | User Workstation | User PC, hosts client side logic of the system. |
 | System Server | Server that serves web pages as well as hosting all server side logic of the system. |
 | Database Server | Server that hosts the legacy relational database. |
 
+![Figure 1.2](images/iteration_1/step6b.png)
+
+Figure 1.2
 
 ## 1.2.6 Step 7: Perform Analysis of Current Design and Review Iteration
 
