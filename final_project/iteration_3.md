@@ -31,6 +31,12 @@ The instantiation design decisions are summarized in the following table:
 
 ## 3.2.5 Step 6: Sketch Views and Record Design Decisions
 
-![step6a](images/iteration_3/step6a.png)
+![Figure 3.1](images/iteration_3/step6a.png)
+
+Figure 3.1
+
+![Figure 3.2](images/iteration_3/step6b.png)
+
+Figure 3.2
 
 ## 3.2.6 Step 7: Perform Analysis of Current Design and Review Iteration
