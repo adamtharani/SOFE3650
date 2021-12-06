@@ -7,6 +7,18 @@ Primary Functional Requirements:
 - UC-3: Managing Courses
 - UC-4: User administration and log in
 
+Quality Attribute Scenarios:
+
+In addition to these use cases, a number of quality attribute scenarios were elicited and documented. The six most relevant ones are presented in the following table. For each scenario, we also identify the use case that it is associated with.
+
+| ID | Quality Attribute | Scenario | Associated Use Case |
+| -  | - | - | - |
+| QA-1 | Availability | The system should be able to always be accessible regardless of the load on the server | All |
+| QA-2 | Performance  | A course’s information requires an update during peak registration times. Once the necessary changes are made, the system should be able to update quickly and efficiently, within 5 seconds for all users | UC-3 |
+| QA-3 | Security | An unknown user attempts to login to another account without the proper credentials. The system logs these unsuccessful attempts to be viewed by a system administrator. | UC-4 |
+| QA-4 | Scalability | As the university grows, the student body, number of professors, programs and course offerings will all increase. The system is able to handle the increasing demand. | All |
+| QA-5 | Modifiability | A new elective is added to the database's selection of courses over the summer. This course is added successfully without affecting any of the system's core components. | UC-1, UC-2 |
+
 | Scenario ID | Importance to the Customer | Difficulty of Implementation | Associated Use Case |
 | - | - | - | - |
 | QA-1 | HIGH | MEDIUM | UC-1,2 |
