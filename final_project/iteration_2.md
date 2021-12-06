@@ -4,10 +4,7 @@
 
 ## 2.2.1 Step 2: Establish Iteration Goal by Selecting Drivers
 
-The goal of this iteration is to address the general architectural concern of identify-
-ing structures to support primary functionality. Identifying these elements is useful 
-not only for understanding how functionality is supported, but also for addressing 
-the allocation of work to members of the development team. In this second iteration, the  architect considers the system's primary use cases:
+The goal of this iteration is to address the general architectural concern of identifying structures to support primary functionality. Identifying these elements is useful not only for understanding how functionality is supported, but also for addressing the allocation of work to members of the development team. In this second iteration, the architect considers the system's primary use cases:
 
 - UC-1: Register Students
 - UC-3: Manage Courses
