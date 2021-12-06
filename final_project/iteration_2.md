@@ -48,12 +48,15 @@ Several Diagrams were created as a result of decisions made in step 5.
 - Figure 2.3 shows the sequence diagram of a primary use case
 
 ![Figure 2.1](images/iteration_2/step6a.png)
+
 Figure 2.1
 
 ![Figure 2.2](images/iteration_2/step6b.png)
+
 Figure 2.2
 
 ![Figure 2.3](images/iteration_2/step6c.png)
+
 Figure 2.3
 
 
