@@ -45,12 +45,16 @@ The instantiation design decisions made in this iteration are summarized in the 
 Several Diagrams were created as a result of decisions made in step 5.
 - Figure 2.1 shows an initial domain model for the system.
 - Figure 2.2 shows the domain objects that are instantiated for the use case model found in the project proposal.
+- Figure 2.3 shows the sequence diagram of a primary use case
 
 ![Figure 2.1](images/iteration_2/step6a.png)
 Figure 2.1
 
 ![Figure 2.2](images/iteration_2/step6b.png)
 Figure 2.2
+
+![Figure 2.3](images/iteration_2/step6c.png)
+Figure 2.3
 
 
 ## 2.2.6 Step 7: Perform Analysis of Current Design and Review Iteration
