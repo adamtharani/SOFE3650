@@ -46,7 +46,7 @@ Although this iteration is driven by a general architectural concern, we must ke
 
 ## 1.2.2 Step 3: Choose One or More Elements of the System to Refine
 
-This is a university database development effort, so in this case the element to refine is the entire FCAPS system, which is shown in the context diagram above. Refinement is performed through decomposition.
+This is a university database development effort, so in this case the element to refine is the entire University DBMS system, which is shown in the context diagram above. Refinement is performed through decomposition.
 
 ## 1.2.3 Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers
 
