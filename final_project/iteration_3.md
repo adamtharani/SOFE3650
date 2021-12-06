@@ -26,6 +26,8 @@ The instantiation design decisions are summarized in the following table:
 
 | Design Decisions and Location | Rationale |
 | ----------------------------- | ---------- |
+| Deploy message queue and patch manager on individual nodes. | The message queue and patch manager will both be deployed on separate nodes. This will ensure that no messages are lost on application failure and patch implementation can be easily rolled back if an error occurs during an update. |
+| Implement passive redundancy in the application server. | Implementing passive redundancy will allow the patch manager to update one of the redundant application servers. In the event of a critical error in the patch the application server will immediately copy the state of the first resulting in a quick and efficient rollback of the patch. |
 
 ## 3.2.5 Step 6: Sketch Views and Record Design Decisions
 
